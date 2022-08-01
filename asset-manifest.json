@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/elixir-web/static/js/main.ad2c33c5.chunk.js",
-    "main.js.map": "/elixir-web/static/js/main.ad2c33c5.chunk.js.map",
+    "main.js": "/elixir-web/static/js/main.bff30319.chunk.js",
+    "main.js.map": "/elixir-web/static/js/main.bff30319.chunk.js.map",
     "runtime~main.js": "/elixir-web/static/js/runtime~main.329f3bb6.js",
     "runtime~main.js.map": "/elixir-web/static/js/runtime~main.329f3bb6.js.map",
     "static/js/2.8633afea.chunk.js": "/elixir-web/static/js/2.8633afea.chunk.js",
     "static/js/2.8633afea.chunk.js.map": "/elixir-web/static/js/2.8633afea.chunk.js.map",
     "index.html": "/elixir-web/index.html",
-    "precache-manifest.e5c554d5cb884be9f71f9c9a26c3d020.js": "/elixir-web/precache-manifest.e5c554d5cb884be9f71f9c9a26c3d020.js",
+    "precache-manifest.d6b53a5e5ffcc59deb55914e8f2e6cb3.js": "/elixir-web/precache-manifest.d6b53a5e5ffcc59deb55914e8f2e6cb3.js",
     "service-worker.js": "/elixir-web/service-worker.js",
     "static/media/abraction-hero.svg": "/elixir-web/static/media/abraction-hero.f8f5a85a.svg",
     "static/media/api.svg": "/elixir-web/static/media/api.5a76849e.svg",
