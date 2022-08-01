@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/elixir-web/static/js/main.ad2c33c5.chunk.js",
+    "main.js.map": "/elixir-web/static/js/main.ad2c33c5.chunk.js.map",
+    "runtime~main.js": "/elixir-web/static/js/runtime~main.329f3bb6.js",
+    "runtime~main.js.map": "/elixir-web/static/js/runtime~main.329f3bb6.js.map",
+    "static/js/2.8633afea.chunk.js": "/elixir-web/static/js/2.8633afea.chunk.js",
+    "static/js/2.8633afea.chunk.js.map": "/elixir-web/static/js/2.8633afea.chunk.js.map",
+    "index.html": "/elixir-web/index.html",
+    "precache-manifest.e5c554d5cb884be9f71f9c9a26c3d020.js": "/elixir-web/precache-manifest.e5c554d5cb884be9f71f9c9a26c3d020.js",
+    "service-worker.js": "/elixir-web/service-worker.js",
+    "static/media/abraction-hero.svg": "/elixir-web/static/media/abraction-hero.f8f5a85a.svg",
+    "static/media/api.svg": "/elixir-web/static/media/api.5a76849e.svg",
+    "static/media/app.svg": "/elixir-web/static/media/app.9e72516c.svg",
+    "static/media/bg-secondary.svg": "/elixir-web/static/media/bg-secondary.675a0447.svg",
+    "static/media/bi.svg": "/elixir-web/static/media/bi.d08dbc5e.svg",
+    "static/media/elixirnote-footer.svg": "/elixir-web/static/media/elixirnote-footer.08df71fa.svg",
+    "static/media/elixirnote.svg": "/elixir-web/static/media/elixirnote.fff80671.svg",
+    "static/media/github.svg": "/elixir-web/static/media/github.2d7ee4e2.svg",
+    "static/media/model.svg": "/elixir-web/static/media/model.90d0ad2e.svg",
+    "static/media/monitor.svg": "/elixir-web/static/media/monitor.2830c2c2.svg",
+    "static/media/platform.svg": "/elixir-web/static/media/platform.1f644af1.svg",
+    "static/media/pre.svg": "/elixir-web/static/media/pre.45abdc77.svg",
+    "static/media/security.svg": "/elixir-web/static/media/security.1f748b8b.svg"
+  }
+}
