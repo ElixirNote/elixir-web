@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38cff53da42aa25019467c9f49759a5e",
+    "revision": "8ed30ecdf6c496e0d6e083d9dba883a3",
     "url": "/elixir-web/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/elixir-web/static/js/2.415db1d1.chunk.js"
   },
   {
-    "revision": "71eb82e39ed9c9833885",
-    "url": "/elixir-web/static/js/main.e0f3a987.chunk.js"
+    "revision": "281b5c53f80711d06028",
+    "url": "/elixir-web/static/js/main.209addd0.chunk.js"
   },
   {
     "revision": "22ee5ae503d4dad8afb9",
