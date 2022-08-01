@@ -51,7 +51,7 @@ const useStyles = makeStyles(theme => ({
 export default function Feature1() {
   const classes = useStyles();
 
-  const defaultSystemName = "ElixirNote";
+  const defaultSystemName = "Elixir";
   const slogan = "Go from data to knowledge";
 
   return (
