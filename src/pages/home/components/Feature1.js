@@ -31,7 +31,7 @@ const useStyles = makeStyles(theme => ({
     color: theme.palette.primary.main
   },
   logoSloganBody: {
-    fontSize: 16,
+    fontSize: 24,
     marginTop: theme.spacing(1),
     marginBottom: theme.spacing(5),
   },

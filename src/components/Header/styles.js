@@ -9,8 +9,8 @@ export default makeStyles(theme => {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
-      backgroundColor: "white",
-      color: theme.palette.primary.main,
+      backgroundColor: "#000000",
+      color: "#ffffff",
     },
     toolbar: {
       paddingLeft: theme.spacing(2),
