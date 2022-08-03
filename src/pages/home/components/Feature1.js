@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/styles";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 import AddCircleIcon from '@material-ui/icons/AddCircle';
 
-import PossibleSheet from "../../../images/possible_sheet.png";
+import PossibleElixir from "../../../images/possible_elixir.png";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -120,7 +120,7 @@ export default function Feature1() {
         </Grid>
         <Grid item xs={6}>
           <div className={classes.rightPaper}>
-            <img src={PossibleSheet} width={"100%"} alt="possible-sheet" />
+            <img src={PossibleElixir} width={"100%"} alt="possible-sheet" />
           </div>
         </Grid>
         {/*<Grid item xs={1}>*/}
