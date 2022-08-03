@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/elixir-web/precache-manifest.86c0903af1414c504a4846d72002f7ca.js"
+  "/elixir-web/precache-manifest.56d012fc8d8e82e496ee16fe02a1b29f.js"
 );
 
 self.addEventListener('message', (event) => {
