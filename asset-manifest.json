@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.js": "/elixir-web/static/js/main.bb162d72.chunk.js",
-    "main.js.map": "/elixir-web/static/js/main.bb162d72.chunk.js.map",
+    "main.js": "/elixir-web/static/js/main.3c92bb9f.chunk.js",
+    "main.js.map": "/elixir-web/static/js/main.3c92bb9f.chunk.js.map",
     "runtime~main.js": "/elixir-web/static/js/runtime~main.329f3bb6.js",
     "runtime~main.js.map": "/elixir-web/static/js/runtime~main.329f3bb6.js.map",
-    "static/js/2.b787232c.chunk.js": "/elixir-web/static/js/2.b787232c.chunk.js",
-    "static/js/2.b787232c.chunk.js.map": "/elixir-web/static/js/2.b787232c.chunk.js.map",
+    "static/js/2.ae91be4e.chunk.js": "/elixir-web/static/js/2.ae91be4e.chunk.js",
+    "static/js/2.ae91be4e.chunk.js.map": "/elixir-web/static/js/2.ae91be4e.chunk.js.map",
     "index.html": "/elixir-web/index.html",
-    "precache-manifest.9544c61e3315a95ffa10df0288c14925.js": "/elixir-web/precache-manifest.9544c61e3315a95ffa10df0288c14925.js",
+    "precache-manifest.4a4d34a409fcc4b826c4f87e47ae4262.js": "/elixir-web/precache-manifest.4a4d34a409fcc4b826c4f87e47ae4262.js",
     "service-worker.js": "/elixir-web/service-worker.js",
+    "static/media/API_Cover.png": "/elixir-web/static/media/API_Cover.2a718436.png",
+    "static/media/Data_Spot_0.png": "/elixir-web/static/media/Data_Spot_0.09f0e3ac.png",
+    "static/media/Data_Spot_1.png": "/elixir-web/static/media/Data_Spot_1.4029a13c.png",
+    "static/media/Data_Spot_2.png": "/elixir-web/static/media/Data_Spot_2.c2c1e9f8.png",
+    "static/media/Data_Spot_3.png": "/elixir-web/static/media/Data_Spot_3.5e34231e.png",
+    "static/media/Plot_Cover.png": "/elixir-web/static/media/Plot_Cover.289b8e12.png",
+    "static/media/Template_Cover.png": "/elixir-web/static/media/Template_Cover.70e2edab.png",
     "static/media/elixirnote-footer.svg": "/elixir-web/static/media/elixirnote-footer.08df71fa.svg",
-    "static/media/possible_elixir.png": "/elixir-web/static/media/possible_elixir.39ab4b97.png"
+    "static/media/github.svg": "/elixir-web/static/media/github.2d7ee4e2.svg",
+    "static/media/guinsoo-ecosystem-elixir.png": "/elixir-web/static/media/guinsoo-ecosystem-elixir.aa092d67.png",
+    "static/media/xxx.svg": "/elixir-web/static/media/xxx.8985118f.svg"
   }
 }
