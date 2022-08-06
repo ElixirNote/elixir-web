@@ -7,7 +7,7 @@ import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100vw",
-    height: "60vh",
+    height: "80vh",
     backgroundColor: theme.palette.primary.main,
     backgroundImage: 'url(' + require('../../../images/xxx.svg') + ')',
     backgroundRepeat: "no-repeat",
@@ -15,14 +15,14 @@ const useStyles = makeStyles(theme => ({
     backgroundPosition: "bottom center",
   },
   leftPaper: {
-    height: "60vh",
+    height: "80vh",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
-    width: "35vw",
+    width: "30vw",
   },
   rightPaper: {
-    height: "60vh",
+    height: "80vh",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
@@ -81,9 +81,9 @@ export default function Feature1() {
   return (
     <div className={classes.root}>
       <Grid container>
-        <Grid item xs={2}>
+        <Grid item md={1} lg={2}>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={5} lg={4}>
           <div className={classes.leftPaper}>
             <div>
               <p className={classes.logoSlogan}>
@@ -102,7 +102,7 @@ export default function Feature1() {
             </div>
           </div>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item md={5} lg={4}>
           <div className={classes.rightPaper}>
             <p className={classes.desc}>
               {desc0}
@@ -126,7 +126,7 @@ export default function Feature1() {
             </Button>
           </div>
         </Grid>
-        <Grid item xs={2}>
+        <Grid item md={1} lg={2}>
         </Grid>
       </Grid>
     </div>
