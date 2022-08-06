@@ -9,7 +9,7 @@ export default makeStyles(theme => {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
-      backgroundColor: "#000000",
+      backgroundColor: theme.palette.primary.main,
       color: "#ffffff",
     },
     toolbar: {
@@ -18,6 +18,7 @@ export default makeStyles(theme => {
     },
     logo: {
       marginLeft: theme.spacing(10),
+      marginRight: theme.spacing(10),
       [theme.breakpoints.down("md")]: {
         display: "none",
       },
@@ -27,40 +28,21 @@ export default makeStyles(theme => {
       flexGrow: 1,
     },
     subTitle: {
-      width: 150,
-      color: theme.palette.text.secondary,
+      width: 100,
+      color: "#ffffff",
       fontSize: 15,
       "&:hover": {
         cursor: "pointer",
-        color: "#ffffff",
+        color: theme.palette.text.hint,
       },
       textAlign: "center",
     },
     gap: {
       marginRight: theme.spacing(10),
     },
-    headerMenu: {
-      marginTop: theme.spacing(7),
-      padding: theme.spacing(2),
-    },
-    productTitle: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
-      color: theme.palette.text.primary,
-      "&:hover": {
-        cursor: "pointer",
-        color: theme.palette.primary.main,
-      }
-    },
-    productDesc: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
-      color: theme.palette.text.secondary,
-      fontSize: 13,
-    },
     buttonDownload: {
-      color: "#ffffff",
-      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.primary.main,
+      backgroundColor: "#ffffff",
       borderColor: theme.palette.primary.main,
       paddingTop: 4,
       paddingBottom: 4,
@@ -68,6 +50,9 @@ export default makeStyles(theme => {
       paddingRight: theme.spacing(3),
       borderRadius: 20,
       textTransform: "Capitalize",
+      "&:hover": {
+        color: "#000000",
+      }
     },
   });
 });

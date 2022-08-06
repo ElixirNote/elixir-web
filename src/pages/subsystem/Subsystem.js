@@ -8,7 +8,7 @@ import ActionFeature from "../../components/Svg/ActionFeature";
 
 // subsystem page feature
 import Feature1 from "../home/components/Feature1";
-import Feature3 from "../home/components/Feature3";
+import Feature4 from "../home/components/Feature4";
 
 // global data
 const Tools = [];
@@ -30,7 +30,7 @@ export default function Subsystem() {
   return (
     <div>
       <Feature1 isSubsystem={true} item={item} />
-      <Feature3/>
+      <Feature4/>
       <div className={classes.emptyPage}>
         <ActionFeature/>
       </div>

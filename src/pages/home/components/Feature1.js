@@ -3,128 +3,131 @@ import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/styles";
 import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
-import AddCircleIcon from '@material-ui/icons/AddCircle';
-
-import PossibleElixir from "../../../images/possible_elixir.png";
 
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100vw",
-    height: "100vh",
-    backgroundColor: "#000000",
+    height: "60vh",
+    backgroundColor: theme.palette.primary.main,
+    backgroundImage: 'url(' + require('../../../images/xxx.svg') + ')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100% 40%",
+    backgroundPosition: "bottom center",
   },
   leftPaper: {
-    height: "90vh",
+    height: "60vh",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
+    width: "35vw",
   },
   rightPaper: {
-    height: "100vh",
+    height: "60vh",
     display: "flex",
     justifyContent: "center",
     flexDirection: "column",
+    alignItems: "flex-start",
+    width: "35vw",
   },
   logoSlogan: {
     fontSize: 48,
-    fontWeight: 800,
+    fontWeight: 600,
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(1),
-    color: "#ffffff"
-  },
-  wordCell: {
-    fontSize: 48,
-    fontWeight: 800,
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(1),
-    color: "#00d5ff",
-    borderColor: "#ff1667",
-    borderWidth: 1,
-    borderStyle: "solid",
+    color: "#ffffff",
   },
   logoSloganBody: {
-    fontSize: 48,
-    fontWeight: 500,
-    color: "#f0f0f0",
-    textDecoration: "underline",
+    fontSize: 64,
+    fontWeight: 800,
+    color: "#ffffff"
+  },
+  tryItToday: {
+    fontSize: 16,
+    marginTop: theme.spacing(2),
+    textTransform: "Capitalize",
+    color: "#ffffff",
+    borderColor: "#ffffff",
+    paddingLeft: theme.spacing(4),
+    borderRadius: 20,
+    backgroundColor: "#ca6c87",
   },
   buttonInfoToMore: {
     fontSize: 16,
-    marginTop: theme.spacing(5),
+    marginTop: theme.spacing(2),
     textTransform: "Capitalize",
     color: "#ffffff",
-    backgroundColor: "#000000",
     borderColor: "#ffffff",
-    borderRadius: 20,
-    paddingLeft: theme.spacing(3),
-    paddingRight: theme.spacing(3),
-    marginRight: theme.spacing(5),
+    paddingLeft: 0,
   },
-  buttonQuickstart: {
-    fontSize: 16,
-    marginTop: theme.spacing(5),
-    textTransform: "Capitalize",
-    color: "#ff9b00",
-    borderColor: "#33d62c",
-    paddingTop: 2,
-    paddingBottom: 2,
-    borderRadius: 0,
-  },
-  mainTitle: {
-    display: "flex",
-    color: theme.palette.text.primary,
-    justifyContent: "center",
+  desc: {
+    color: "#ffffff",
+    fontSize: 24,
+    marginTop: theme.spacing(1),
+    marginBottom: theme.spacing(1),
   },
 }));
 
 export default function Feature1() {
   const classes = useStyles();
 
-  const defaultSystemName = "from data to knowledge";
-  const slogan = "Super Easy";
+  const defaultSystemName = "Explore, analyze, and communicate with data, ";
+  const slogan = "together";
+
+  const desc0 = "Collaborate to uncover new insights and make better decisions."
+  const desc1 = "Visualize data to communicate clearly."
+  const desc2 = "Share findings with transparency and context"
+  const desc3 = "Get support and inspiration from the community."
 
   return (
     <div className={classes.root}>
       <Grid container>
-        <Grid item xs={1}>
+        <Grid item xs={2}>
         </Grid>
-        <Grid item xs={5}>
+        <Grid item xs={4}>
           <div className={classes.leftPaper}>
             <div>
               <p className={classes.logoSlogan}>
-                <AddCircleIcon style={{color: "#ffffff"}} />&nbsp;
-                <span className={classes.wordCell}>Go</span>&nbsp;
-                {defaultSystemName}, <i className={classes.logoSloganBody}>{slogan}</i>
+                {defaultSystemName}<b className={classes.logoSloganBody}>{slogan}</b>
               </p>
             </div>
             <div>
-            </div>
-            <div>
               <Button
-                variant={"outlined"}
-                className={classes.buttonInfoToMore}
+                variant={"text"}
+                className={classes.tryItToday}
                 endIcon={<ArrowRightAltIcon />}
                 onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_blank")}
               >
-                Learn More
-              </Button>
-              <Button
-                variant={"outlined"}
-                className={classes.buttonQuickstart}
-                onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/guides/installation/install-from-source", "_blank")}
-              >
-                Start Now?
+                Try ElixirNote Today
               </Button>
             </div>
           </div>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={4}>
           <div className={classes.rightPaper}>
-            <img src={PossibleElixir} width={"100%"} alt="possible-sheet" />
+            <p className={classes.desc}>
+              {desc0}
+            </p>
+            <p className={classes.desc}>
+              {desc1}
+            </p>
+            <p className={classes.desc}>
+              {desc2}
+            </p>
+            <p className={classes.desc}>
+              {desc3}
+            </p>
+            <Button
+              variant={"text"}
+              className={classes.buttonInfoToMore}
+              endIcon={<ArrowRightAltIcon />}
+              onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_blank")}
+            >
+              Learn More
+            </Button>
           </div>
         </Grid>
-        {/*<Grid item xs={1}>*/}
-        {/*</Grid>*/}
+        <Grid item xs={2}>
+        </Grid>
       </Grid>
     </div>
   );

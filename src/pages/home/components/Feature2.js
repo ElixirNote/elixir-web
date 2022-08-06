@@ -2,71 +2,31 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 
-// images
-import FF1 from "../../../images/ff_1.svg"
-import FF2 from "../../../images/ff_2.svg"
-import FF3 from "../../../images/ff_3.svg"
-import FF4 from "../../../images/ff_4.svg"
+import Cover0 from "../../../images/Plot_Cover.png";
+import Cover1 from "../../../images/Template_Cover.png";
+import Cover2 from "../../../images/API_Cover.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor: "white",
+    backgroundColor: "#ffffff",
+    paddingBottom: theme.spacing(5),
+    paddingTop: theme.spacing(5),
   },
-  gridContent: {
-    padding: theme.spacing(2),
-    color: "white",
-    backgroundColor: theme.palette.primary.main,
-    "&:hover": {
-      color: theme.palette.text.primary,
-      backgroundColor: "white",
-    }
-  },
-  img: {
+  card: {
     display: "flex",
+    height: "35vh",
+    flexDirection: "column",
     justifyContent: "center",
-    alignItems: "center",
-    marginTop: theme.spacing(5),
+    marginLeft: theme.spacing(3),
+    marginRight: theme.spacing(3),
   },
-  cardBody: {
-    textAlign: "center",
-  },
-  title: {
-    fontSize: 22,
+  cardTitle: {
+    fontSize: 18,
     fontWeight: 600,
-  },
-  content: {
-    fontSize: 16,
-    marginBottom: theme.spacing(5),
-  },
+    color: theme.palette.text.primary,
+  }
 }));
-
-const ConfigData = [
-  {
-    id: 1,
-    logo: FF1,
-    title: "High Performance",
-    content: "Ensure predictable low latency for your most demanding applications.",
-  },
-  {
-    id: 2,
-    logo: FF2,
-    title: "Mission‑Critical Reliability",
-    content: "Ensure that your data is always correct, safe and continuously available.",
-  },
-  {
-    id: 3,
-    logo: FF3,
-    title: "Cypher & Bolt Compatible",
-    content: "Get started in seconds and embrace a rich ecosystem of tools.",
-  },
-  {
-    id: 4,
-    logo: FF4,
-    title: "Fair & Transparent Pricing",
-    content: "Always know what you will pay for with memory-based pricing in the cloud.",
-  },
-];
 
 export default function Feature2() {
   const classes = useStyles();
@@ -74,24 +34,30 @@ export default function Feature2() {
   return (
     <div className={classes.root}>
         <Grid container>
-          {
-            ConfigData.map(item => (
-              <Grid
-                item
-                xs={3}
-                key={item.id}
-                className={classes.gridContent}
-              >
-                <div className={classes.img}>
-                  <img src={item.logo} height={88} alt={item.id} />
-                </div>
-                <div className={classes.cardBody}>
-                  <p className={classes.title}>{item.title}</p>
-                  <p className={classes.content}>{item.content}</p>
+          <Grid item xs={2} />
+          <Grid item xs={8}>
+            <Grid container>
+              <Grid item xs={4}>
+                <div className={classes.card}>
+                  <img src={Cover0} alt="img" width={"100%"} height="70%" style={{borderRadius: 4, border: "1px solid #bbbbbb"}} />
+                  <p className={classes.cardTitle}>Plot CheatSheets</p>
                 </div>
               </Grid>
-            ))
-          }
+              <Grid item xs={4}>
+                <div className={classes.card}>
+                  <img src={Cover1} alt="img" width={"100%"} height="70%" style={{borderRadius: 4, border: "1px solid #bbbbbb"}} />
+                  <p className={classes.cardTitle}>Workflow Templates</p>
+                </div>
+              </Grid>
+              <Grid item xs={4}>
+                <div className={classes.card}>
+                  <img src={Cover2} alt="img" width={"100%"} height="70%" style={{borderRadius: 4, border: "1px solid #bbbbbb"}} />
+                  <p className={classes.cardTitle}>API Starters</p>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item xs={2} />
         </Grid>
     </div>
   );

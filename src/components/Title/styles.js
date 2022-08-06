@@ -21,8 +21,10 @@ export default makeStyles(theme => ({
     textAlign: "center",
     width: "100vw",
     color: theme.palette.text.secondary,
+    fontSize: 16,
+    lineHeight: 2,
   },
   tip: {
-    width: 400,
+    width: 600,
   },
 }));

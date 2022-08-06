@@ -4,7 +4,7 @@ export default makeStyles((theme) => ({
   root: {
     flexGrow: 1,
     display: "flex",
-    backgroundColor: "#2d303a",
+    backgroundColor: "#000000",
     color: fade("#fff", 0.9),
     paddingTop: theme.spacing(3),
   },
@@ -94,7 +94,10 @@ export default makeStyles((theme) => ({
   input: {
     marginTop: theme.spacing(2),
     backgroundColor: "white",
-    padding: theme.spacing(1),
+    paddingTop: 4,
+    paddingBottom: 4,
+    paddingLeft: theme.spacing(1),
+    paddingRight: theme.spacing(1),
     borderRadius: 4,
   },
   button: {

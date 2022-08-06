@@ -1,7 +1,6 @@
 import React from "react";
-import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
-import { Typography } from "../Wrappers";
+import {Typography} from "../Wrappers";
 import Divider from "@material-ui/core/Divider";
 import Button from "@material-ui/core/Button";
 import InputBase from "@material-ui/core/InputBase";
@@ -17,10 +16,11 @@ export default function Footer() {
   const classes = useStyles();
 
   return (
-    <>
-      <div className={classes.root}>
-        <Container maxWidth="lg">
-          <Grid container className={classes.footerPos}>
+    <div className={classes.root}>
+      <Grid container>
+        <Grid item xs={1} />
+        <Grid item xs={10}>
+          <Grid container  className={classes.footerPos}>
             <Grid item xs={2}>
               <img
                 src={ElixirFooterLogo}
@@ -32,15 +32,21 @@ export default function Footer() {
               <Grid container>
                 <Grid item xs={2} className={classes.footerBody}>
                   <b className={classes.title2}>ElixirNote</b>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/ElixirNote", "_target")}>About Us</p>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/ElixirNote", "_target")}>Terms</p>
+                  <p className={classes.body2} onClick={() => window.open("https://github.com/ElixirNote", "_target")}>About
+                    Us</p>
+                  <p className={classes.body2}
+                     onClick={() => window.open("https://github.com/ElixirNote", "_target")}>Terms</p>
                 </Grid>
                 <Grid item xs={2} className={classes.footerBody}>
                   <b className={classes.title2}>GuinsooLab</b>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>GuinsooLab Stack</p>
-                  <p className={classes.body2} onClick={() => window.open("https://guinsoolab.github.io/glab", "_target")}>GuinsooLab Solutions</p>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/Spotrix", "_target")}>Spotrix</p>
-                  <p className={classes.body2} onClick={() => window.open("https://github.com/IreliaTable", "_target")}>IreliaTable</p>
+                  <p className={classes.body2}
+                     onClick={() => window.open("https://github.com/GuinsooLab", "_target")}>GuinsooLab Stack</p>
+                  <p className={classes.body2}
+                     onClick={() => window.open("https://guinsoolab.github.io/glab", "_target")}>GuinsooLab Solutions</p>
+                  <p className={classes.body2}
+                     onClick={() => window.open("https://github.com/Spotrix", "_target")}>Spotrix</p>
+                  <p className={classes.body2}
+                     onClick={() => window.open("https://github.com/IreliaTable", "_target")}>IreliaTable</p>
                 </Grid>
                 <Grid item xs={2} className={classes.footerBody}>
                   <b className={classes.title2}>Community</b>
@@ -52,20 +58,20 @@ export default function Footer() {
                 <Grid item xs={5} className={classes.footerBody}>
                   <b className={classes.title2}>Subscribe</b>
                   <p className={classes.body3}>Stay up to date with our latest news.</p>
-                  <InputBase className={classes.input} placeholder={"Enter email address"} />
+                  <InputBase className={classes.input} placeholder={"Enter email address"}/>
                   <Button className={classes.button}>Subscribe</Button>
                 </Grid>
-                <Grid item xs={1} className={classes.footerBody} />
+                <Grid item xs={1} className={classes.footerBody}/>
               </Grid>
             </Grid>
           </Grid>
-          {/* divider */}
-          <Divider className={classes.appDivider} />
+          <Divider className={classes.appDivider}/>
           <Typography className={classes.copyright}>
             © 2021-2022 ElixirNote & GuinsoooLab
           </Typography>
-        </Container>
-      </div>
-    </>
+        </Grid>
+        <Grid item xs={1} />
+      </Grid>
+    </div>
   );
 }

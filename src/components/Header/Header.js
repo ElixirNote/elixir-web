@@ -28,16 +28,31 @@ export default function Header() {
           alt="glab-logo"
           onClick={() => window.open("#/app/home", "_self")}
         />
-        <p className={classes.subTitle}>
-          / GuinsooLab Elixir
-        </p>
-        <div className={classes.grow} />
         <p
           className={classes.subTitle}
           onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_target")}
         >
-          Documentation
+          Overview
         </p>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/ecosystem/ecosystem", "_target")}
+        >
+          Ecosystem
+        </p>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/solutions/solutions", "_target")}
+        >
+          Solution
+        </p>
+        <p
+          className={classes.subTitle}
+          onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_target")}
+        >
+          FAQ
+        </p>
+        <div className={classes.grow} />
         <div>
           <Button
             variant={"outlined"}
