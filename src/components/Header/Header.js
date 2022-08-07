@@ -48,7 +48,7 @@ export default function Header() {
         </p>
         <p
           className={classes.subTitle}
-          onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_target")}
+          onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/appendix/faq", "_target")}
         >
           FAQ
         </p>
