@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3327px" height="1614px" viewBox="0 0 3327 1614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg-actions</title>
+    <defs>
+        <linearGradient x1="-1.35525272e-15%" y1="43.7150475%" x2="100%" y2="43.7150475%" id="linearGradient-1">
+            <stop stop-color="#213B60" offset="0%"></stop>
+            <stop stop-color="#291648" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="guinsoolab-elixir" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bg-actions" fill="url(#linearGradient-1)" x="0" y="0" width="3327" height="1614"></rect>
+    </g>
+</svg>
