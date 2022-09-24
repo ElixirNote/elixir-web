@@ -10,7 +10,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import useStyles from "./styles";
 
 // pictures
-import ElixirNoteLogo from "../../images/elixirnote-footer.svg";
+import ElixirNoteLogo from "../../images/elixirnote.svg";
 
 export default function Header() {
   const classes = useStyles();
@@ -55,7 +55,8 @@ export default function Header() {
         <div className={classes.grow} />
         <div>
           <Button
-            variant={"outlined"}
+            variant={"contained"}
+            disableElevation={true}
             className={classes.buttonDownload}
             onClick={() => window.open("https://github.com/ElixirNote/elixirnote/releases", "_target")}
           >

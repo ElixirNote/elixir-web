@@ -2,128 +2,103 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/styles";
-import ArrowRightAltIcon from "@material-ui/icons/ArrowRightAlt";
 
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100vw",
-    height: "80vh",
-    backgroundColor: theme.palette.primary.main,
-    backgroundImage: 'url(' + require('../../../images/xxx.svg') + ')',
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "100% 40%",
-    backgroundPosition: "bottom center",
+    height: "90vh",
+    backgroundColor: "#fff",
   },
   leftPaper: {
-    height: "80vh",
-    display: "flex",
-    justifyContent: "center",
-    flexDirection: "column",
-    width: "30vw",
+    height: "90vh",
+    width: "100%",
+    backgroundImage: 'url(' + require('../../../images/home-left.svg') + ')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "50vw 80vh",
+    backgroundPosition: "bottom center",
+    paddingRight: theme.spacing(5),
   },
   rightPaper: {
-    height: "80vh",
+    height: "90vh",
     display: "flex",
+    backgroundImage: 'url(' + require('../../../images/dots.svg') + ')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "60vw 90vh",
+    backgroundPosition: "bottom right",
     justifyContent: "center",
     flexDirection: "column",
     alignItems: "flex-start",
-    width: "35vw",
+
+    paddingLeft: theme.spacing(5),
   },
   logoSlogan: {
-    fontSize: 48,
-    fontWeight: 600,
+    fontSize: 64,
+    fontWeight: "bolder",
+    width: "35vw",
+    lineHeight: 1.2,
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(1),
-    color: "#ffffff",
-  },
-  logoSloganBody: {
-    fontSize: 64,
-    fontWeight: 800,
-    color: "#ffffff"
+    color: theme.palette.text.primary,
   },
   tryItToday: {
     fontSize: 16,
+    fontWeight: "bold",
     marginTop: theme.spacing(2),
+    marginRight: theme.spacing(2),
     textTransform: "Capitalize",
     color: "#ffffff",
-    borderColor: "#ffffff",
-    paddingLeft: theme.spacing(4),
-    borderRadius: 20,
-    backgroundColor: "#ca6c87",
+    borderRadius: 4,
+    backgroundColor: "#1fdc6b",
+    padding: "8px 32px",
   },
   buttonInfoToMore: {
     fontSize: 16,
+    fontWeight: "bold",
     marginTop: theme.spacing(2),
+    marginRight: theme.spacing(2),
     textTransform: "Capitalize",
-    color: "#ffffff",
-    borderColor: "#ffffff",
-    paddingLeft: 0,
-  },
-  desc: {
-    color: "#ffffff",
-    fontSize: 24,
-    marginTop: theme.spacing(1),
-    marginBottom: theme.spacing(1),
+    color: "#1fdc6b",
+    borderColor: "#1fdc6b",
+    padding: "8px 32px",
   },
 }));
 
 export default function Feature1() {
   const classes = useStyles();
 
-  const defaultSystemName = "Explore, analyze, and communicate with data, ";
-  const slogan = "together";
-
-  const desc0 = "Collaborate to uncover new insights and make better decisions."
-  const desc1 = "Visualize data to communicate clearly."
-  const desc2 = "Share findings with transparency and context"
-  const desc3 = "Get support and inspiration from the community."
+  const defaultSystemName = "We help teams turn their data into assets";
 
   return (
     <div className={classes.root}>
       <Grid container>
-        <Grid item md={1} lg={2}>
-        </Grid>
-        <Grid item md={5} lg={4}>
+        <Grid item md={6} lg={6}>
           <div className={classes.leftPaper}>
+          </div>
+        </Grid>
+        <Grid item md={6} lg={6}>
+          <div className={classes.rightPaper}>
             <div>
               <p className={classes.logoSlogan}>
-                {defaultSystemName}<b className={classes.logoSloganBody}>{slogan}</b>
+                {defaultSystemName}
               </p>
             </div>
             <div>
               <Button
-                variant={"text"}
+                variant={"contained"}
+                disableElevation
                 className={classes.tryItToday}
-                endIcon={<ArrowRightAltIcon />}
                 onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_blank")}
               >
-                Try ElixirNote Today
+                Try Today
+              </Button>
+              <Button
+                variant={"outlined"}
+                className={classes.buttonInfoToMore}
+                onClick={() => window.open("https://github.com/ElixirNote", "_blank")}
+              >
+                Learn More
               </Button>
             </div>
-          </div>
-        </Grid>
-        <Grid item md={5} lg={4}>
-          <div className={classes.rightPaper}>
-            <p className={classes.desc}>
-              {desc0}
-            </p>
-            <p className={classes.desc}>
-              {desc1}
-            </p>
-            <p className={classes.desc}>
-              {desc2}
-            </p>
-            <p className={classes.desc}>
-              {desc3}
-            </p>
-            <Button
-              variant={"text"}
-              className={classes.buttonInfoToMore}
-              endIcon={<ArrowRightAltIcon />}
-              onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_blank")}
-            >
-              Learn More
-            </Button>
           </div>
         </Grid>
         <Grid item md={1} lg={2}>

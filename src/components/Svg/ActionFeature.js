@@ -7,8 +7,10 @@ const useStyles = makeStyles(theme => ({
   root: {
     flexGrow: 1,
     width: "100vw",
-    height: "45vh",
-    backgroundColor: theme.palette.primary.main,
+    height: "65vh",
+    backgroundImage: 'url(' + require('../../images/bg-actions.svg') + ')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
     color: "white",
     display: "flex",
     alignItems: "center",
@@ -22,20 +24,14 @@ const useStyles = makeStyles(theme => ({
     marginBottom: theme.spacing(3),
   },
   buttonDownload: {
-    backgroundColor: "#ffffff",
-    borderColor: theme.palette.primary.main,
-    paddingTop: 8,
+    backgroundColor: "#1fdc6b",
+    padding: "8px 32px",
     paddingBottom: 8,
-    paddingLeft: theme.spacing(6),
-    paddingRight: theme.spacing(6),
-    borderRadius: 30,
-    fontSize: 18,
+    borderRadius: 4,
+    fontSize: 16,
+    fontWeight: "bolder",
     textTransform: "Capitalize",
-    color: theme.palette.primary.main,
-    "&:hover" :{
-      backgroundColor: "#ffffff",
-      fontWeight: 600,
-    }
+    color: "#fff",
   },
 }));
 
@@ -46,9 +42,9 @@ export default function ActionFeature() {
     <div>
       <Grid container>
         <Grid item xs={12} className={classes.root}>
-          <p className={classes.title}>Let’s get insight. Try ElixirNote today.</p>
+          <p className={classes.title}>Let’s get insight. Try elixir today.</p>
           <Button
-            variant={"outlined"}
+            variant={"contained"}
             className={classes.buttonDownload}
             onClick={() => window.open("https://github.com/ElixirNote/elixirnote/releases", "_target")}
           >

@@ -58,8 +58,8 @@ export default {
         .toHexString(),
     },
     text: {
-      primary: "#4A4A4A",
-      secondary: "#6E6E6E",
+      primary: "#062c3f",
+      secondary: "#4a4a4a",
       hint: "#B9B9B9",
     },
     background: {

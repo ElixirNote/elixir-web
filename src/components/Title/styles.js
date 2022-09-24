@@ -25,6 +25,6 @@ export default makeStyles(theme => ({
     lineHeight: 2,
   },
   tip: {
-    width: 600,
+    width: 800,
   },
 }));

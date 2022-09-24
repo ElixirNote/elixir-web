@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2915px" height="2583px" viewBox="0 0 2915 2583" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home-left</title>
+    <defs>
+        <linearGradient x1="43.8694813%" y1="46.9675559%" x2="102.772497%" y2="46.9675559%" id="linearGradient-1">
+            <stop stop-color="#2A043A" offset="0%"></stop>
+            <stop stop-color="#1B2352" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#D8D8D8" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-155.2%" y="-109.8%" width="410.3%" height="319.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="15" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-82.8%" y="-58.5%" width="265.5%" height="217.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-72.4%" y="-51.2%" width="244.8%" height="202.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-82.8%" y="-58.5%" width="265.5%" height="217.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-300.0%" y="-212.2%" width="700.0%" height="524.4%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="29" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="home-left" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2622.3428,1872.31263 C2321.08095,2043.21407 2005.83943,1991.83879 1685.70503,1990.79031 C1341.45571,1989.74184 1068.85218,2029.58389 810.22832,2226.69721 C217.839884,2678.93947 -660.782256,2729.26628 -1419.17925,2572.694 C-2014.36362,2449.67292 -2219.86474,1925.43536 -2230,1367.29712 C-2230,540.749239 -1846.25811,274.08707 -1044.17465,194.05347 C-420.681456,131.843947 129.767975,287.367754 755.707614,164.346675 C1335.16486,50.7618719 1995.70417,-179.203668 2540.91123,249.273159 C2900.53819,532.361438 3124.56237,1587.47689 2622.3428,1872.31263 Z" id="Path" fill="url(#linearGradient-1)"></path>
+        <g transform="translate(339.000000, 69.100938)">
+            <rect id="Rectangle" fill="#37DC6B" transform="translate(2277.500000, 298.399062) rotate(45.000000) translate(-2277.500000, -298.399062) " x="2232" y="-78.1009383" width="91" height="753" rx="45.5"></rect>
+            <rect id="Rectangle" fill="#37DC6B" transform="translate(2094.933550, 181.965512) rotate(45.000000) translate(-2094.933550, -181.965512) " x="2049.43355" y="63.4655121" width="91" height="237" rx="45.5"></rect>
+            <rect id="Rectangle" fill="#37DC6B" transform="translate(884.609433, 431.289628) rotate(45.000000) translate(-884.609433, -431.289628) " x="839.109433" y="288.289628" width="91" height="286" rx="45.5"></rect>
+            <rect id="Rectangle" fill="#37DC6B" transform="translate(884.609433, 1858.289628) rotate(45.000000) translate(-884.609433, -1858.289628) " x="839.109433" y="1715.28963" width="91" height="286" rx="45.5"></rect>
+            <rect id="Rectangle" fill="#37DC6B" transform="translate(644.718867, 1845.180195) rotate(45.000000) translate(-644.718867, -1845.180195) " x="599.218867" y="1468.68019" width="91" height="753" rx="45.5"></rect>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-3)" cx="480.5" cy="738.399062" rx="14.5" ry="20.5"></ellipse>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-4)" cx="127.5" cy="879.399062" rx="14.5" ry="20.5"></ellipse>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-5)" cx="14.5" cy="1425.39906" rx="14.5" ry="20.5"></ellipse>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-6)" cx="1571.5" cy="664.399062" rx="14.5" ry="20.5"></ellipse>
+            <ellipse id="Oval" fill="url(#linearGradient-2)" filter="url(#filter-7)" cx="1003.5" cy="1029.39906" rx="14.5" ry="20.5"></ellipse>
+        </g>
+    </g>
+</svg>

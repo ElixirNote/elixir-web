@@ -27,8 +27,8 @@ export default function Feature4() {
   return (
       <div className={classes.root}>
         <Title
-          name="More about ElixirNote"
-          tip="ElixirNote ecosystem in GuinsooLab & big data system"
+          name="Technologies we work with"
+          tip="We don't just focus on one technology, instead we specialize in a whole range of open-source and public cloud tools . Thanks to that, we always select the most optimal Big Data solutions for our clients."
         />
         <Grid container>
           <Grid item xs={2}>
