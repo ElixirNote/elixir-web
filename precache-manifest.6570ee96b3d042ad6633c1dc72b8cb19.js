@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9f96549baf93e256867782102ff2a1c5",
+    "revision": "b701c4e6d8c9e85859b45fb2855ae635",
     "url": "/elixir-web/index.html"
   },
   {
-    "revision": "8e06ae947129d26da942",
-    "url": "/elixir-web/static/js/2.99b7ca0c.chunk.js"
+    "revision": "6b529e25403298db15e1",
+    "url": "/elixir-web/static/js/2.3a47f675.chunk.js"
   },
   {
-    "revision": "381e53beee2ac9e2ddc9",
-    "url": "/elixir-web/static/js/main.f15bb37d.chunk.js"
+    "revision": "173f4a4bff09ce44e500",
+    "url": "/elixir-web/static/js/main.eac89243.chunk.js"
   },
   {
     "revision": "22ee5ae503d4dad8afb9",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2d7ee4e2eefe9058af6e401be84e8013",
     "url": "/elixir-web/static/media/github.2d7ee4e2.svg"
-  },
-  {
-    "revision": "bfdc8e5cf04f50e02c8329a826f1d501",
-    "url": "/elixir-web/static/media/guinsoo-ecosystem-elixir.bfdc8e5c.png"
   },
   {
     "revision": "65e454a37af1246081d0c14cdfcf41e8",
