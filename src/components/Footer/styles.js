@@ -105,11 +105,11 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(1),
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(2),
-    backgroundColor: theme.palette.primary.main,
+    backgroundColor: "#1fdc6b",
     color: "white",
     textTransform: "Capitalize",
     "&:hover": {
-      backgroundColor: theme.palette.primary.main,
+      backgroundColor: "#1fdc6b",
       fontWeight: 800,
       cursor: "pointer",
     },
