@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f0c3e19f29d948d1cb215fc085084025",
+    "revision": "8b40dcef182020d8db1836e60f03668c",
     "url": "/elixir-web/index.html"
   },
   {
-    "revision": "c1788c2d0ed6fd23e415",
-    "url": "/elixir-web/static/js/2.329861bf.chunk.js"
+    "revision": "769ad6fdfe0c908cace3",
+    "url": "/elixir-web/static/js/2.4e5d6f13.chunk.js"
   },
   {
-    "revision": "022247af1ba3d84a9678",
-    "url": "/elixir-web/static/js/main.baf9ef42.chunk.js"
+    "revision": "2522dd4794bb91feefed",
+    "url": "/elixir-web/static/js/main.86cb614e.chunk.js"
   },
   {
     "revision": "22ee5ae503d4dad8afb9",
@@ -36,12 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/elixir-web/static/media/elixirnote.fff80671.svg"
   },
   {
-    "revision": "671e286741cae8bf5e2ddaa0dadee696",
-    "url": "/elixir-web/static/media/feature-bg.671e2867.svg"
+    "revision": "1ba0602354c4bc381cf27058bfb47433",
+    "url": "/elixir-web/static/media/feature-bg.1ba06023.svg"
   },
   {
     "revision": "2d7ee4e2eefe9058af6e401be84e8013",
     "url": "/elixir-web/static/media/github.2d7ee4e2.svg"
+  },
+  {
+    "revision": "26070ccf56bebd132e9a36d724a5df63",
+    "url": "/elixir-web/static/media/iceberg.26070ccf.webp"
   },
   {
     "revision": "93fea8a660bbbf839d5124c19e257050",
