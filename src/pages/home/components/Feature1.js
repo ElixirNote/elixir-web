@@ -1,12 +1,13 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/styles";
-
-import MountainPic from "../../../images/mountain.webp";
 import Button from "@material-ui/core/Button";
 import PersonalVideoIcon from '@material-ui/icons/PersonalVideo';
 import EditIcon from '@material-ui/icons/Edit';
 import OpenInNewIcon from '@material-ui/icons/OpenInNew';
+
+import MountainPic from "../../../images/mountain.webp";
+import IcebergPic from "../../../images/iceberg.webp";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -23,14 +24,14 @@ const useStyles = makeStyles(theme => ({
   },
   firstMain: {
     display: "flex",
-    height: "65vh",
+    height: "70vh",
     width: "100vw",
     alignItems: "center",
     justifyContent: "center",
   },
   secondMain: {
     display: "flex",
-    height: "35vh",
+    height: "30vh",
     width: "100vw",
     alignItems: "center",
     justifyContent: "center",
@@ -77,8 +78,10 @@ const useStyles = makeStyles(theme => ({
     textTransform: "Capitalize",
     color: theme.palette.primary.main,
     fontWeight: 800,
-  }
-
+  },
+  rightInfo: {
+    paddingTop: theme.spacing(10),
+  },
 }));
 
 export default function Feature1() {
@@ -119,9 +122,10 @@ export default function Feature1() {
             Book a demo
           </Button>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={5} className={classes.rightInfo}>
+          <img src={IcebergPic} width={"100%"} alt="banner"/>
         </Grid>
-        <Grid item xs={2}/>
+        <Grid item xs={1}/>
       </Grid>
       <Grid container className={classes.secondMain}>
         <img src={MountainPic} height={"100%"} alt="mountain" />

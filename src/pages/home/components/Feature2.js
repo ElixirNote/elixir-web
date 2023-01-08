@@ -13,17 +13,17 @@ import CloudIcon from "../../../images/icon-career-cloud.svg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    height: "300vh",
     width: "100vw",
     backgroundImage: 'url(' + require('../../../images/feature-bg.svg') + ')',
     backgroundRepeat: "no-repeat",
     backgroundSize: "100%",
     backgroundColor: theme.palette.background.default,
     color: theme.palette.background.light,
+    marginBottom: theme.spacing(10),
   },
   card: {
     display: "flex",
-    height: "100vh",
+    height: "70vh",
     flexDirection: "column",
     justifyContent: "center",
     marginLeft: theme.spacing(3),
@@ -39,6 +39,9 @@ const useStyles = makeStyles((theme) => ({
   contents: {
     width: "30vw",
     lineHeight: 1.8,
+    borderLeft: "4px solid",
+    borderColor: theme.palette.primary.main,
+    paddingLeft: 8,
   },
   featureCard: {
     display: "flex",
@@ -49,21 +52,22 @@ const useStyles = makeStyles((theme) => ({
   featureContent: {
     width: "100%",
     height: "calc(40vh - 32px)",
-    backgroundColor: "#fff",
-    borderRadius: 8,
+    backgroundColor: "#252c2e",
+    borderRadius: 4,
     margin: theme.spacing(2),
-    boxShadow: "0 0 35px 0 rgb(206 215 219 / 48%)",
-    "&:hover": {
-      boxShadow: "0 0 35px 0 rgb(206 215 219 / 90%)",
-    },
-    padding: "50px 20px 40px",
-    color: theme.palette.text.primary,
+    padding: "50px 20px 30px",
+    color: theme.palette.background.light,
     "& > p": {
       fontSize: 20,
+      fontWeight: 600,
       "&:hover": {
-        color: "1fdc6a"
+        color: theme.palette.primary.main,
       }
-    }
+    },
+    "& > img": {
+      width: 32,
+      height: 32,
+    },
   },
 
 }));
@@ -82,7 +86,7 @@ const Content = [
   {
     icon: SettingIcon,
     title: "Faster research",
-    body: "thanks to the transparency of activities on the Data Lake Platform, Data Scientists can see the activities of other stakeholders",
+    body: "Thanks to the transparency of activities on the Data Lake Platform, Data Scientists can see the activities of other stakeholders",
   },
   {
     icon: DatabaseIcon,
@@ -123,9 +127,8 @@ export default function Feature2() {
         <Grid item xs={2} />
         <Grid item xs={8}>
           <Grid container>
-            <Grid item xs={4} />
             {Content.map(item => (
-              <Grid item xs={4} className={classes.featureCard} key={item.title}>
+              <Grid item xs={6} className={classes.featureCard} key={item.title}>
                 <div className={classes.featureContent}>
                   <img src={item.icon} alt="icon"/>
                   <p>{item.title}</p>

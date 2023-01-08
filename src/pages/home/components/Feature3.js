@@ -29,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
     width: "50vw",
     lineHeight: 1.8,
     fontWeight: "bold",
+    borderLeft: "4px solid",
+    borderColor: theme.palette.primary.main,
+    paddingLeft: 8,
   },
   contentTips: {
     width: "50vw",

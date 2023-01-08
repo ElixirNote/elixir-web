@@ -14,8 +14,8 @@ export default makeStyles(theme => {
       color: theme.palette.background.light,
     },
     toolbar: {
-      paddingLeft: theme.spacing(2),
-      paddingRight: theme.spacing(2),
+      paddingTop: theme.spacing(2),
+      paddingBottom: theme.spacing(2),
     },
     logo: {
       marginLeft: theme.spacing(10),
@@ -23,7 +23,7 @@ export default makeStyles(theme => {
       [theme.breakpoints.down("md")]: {
         display: "none",
       },
-      height: 38,
+      height: 42,
     },
     grow: {
       flexGrow: 1,
