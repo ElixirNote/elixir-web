@@ -2,12 +2,10 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 
-// import Ecosystem from "../../../images/guinsoo-ecosystem-elixir.png";
-
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    height: "70vh",
+    height: "50vh",
     width: "100vw",
     backgroundColor: "#fff",
     color: theme.palette.text.primary,
@@ -37,10 +35,6 @@ const useStyles = makeStyles((theme) => ({
     lineHeight: 1.8,
     color: theme.palette.text.secondary
   },
-  card2: {
-    width: "100%",
-    height: "80vh",
-  }
 }));
 
 export default function Feature3() {
@@ -63,15 +57,6 @@ export default function Feature3() {
               project.
             </p>
           </div>
-        </Grid>
-        <Grid item xs={2} />
-      </Grid>
-      <Grid container>
-        <Grid item xs={2} />
-        <Grid item xs={8}>
-          {/*<div className={classes.card2}>*/}
-            {/*<img src={Ecosystem} alt="ecosystem" width={"100%"} />*/}
-          {/*</div>*/}
         </Grid>
         <Grid item xs={2} />
       </Grid>

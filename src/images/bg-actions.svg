@@ -2,12 +2,15 @@
 <svg width="3327px" height="1614px" viewBox="0 0 3327 1614" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>bg-actions</title>
     <defs>
-        <linearGradient x1="-1.35525272e-15%" y1="43.7150475%" x2="100%" y2="43.7150475%" id="linearGradient-1">
-            <stop stop-color="#213B60" offset="0%"></stop>
-            <stop stop-color="#291648" offset="100%"></stop>
-        </linearGradient>
+        <rect id="path-1" x="0" y="0" width="3327" height="1614"></rect>
     </defs>
     <g id="guinsoolab-elixir" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bg-actions" fill="url(#linearGradient-1)" x="0" y="0" width="3327" height="1614"></rect>
+        <g id="Path-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#1E2020" fill-rule="nonzero" xlink:href="#path-1"></use>
+            <path d="M-183.390748,898.824947 C-98.9599027,898.824947 514.326691,430.149342 1652,150.587845 C1990.7952,67.3353909 2603.32322,149.645941 3489.58404,397.519495 L3489.58404,1319.77618 C2753.18248,997.328398 2169.66574,886.655672 1739.03382,987.758007 C1308.4019,1088.86034 667.593713,1347.00453 -183.390748,1762.19056 C-305.536417,1186.61349 -305.536417,898.824947 -183.390748,898.824947 Z" fill="#252C2E" mask="url(#mask-2)"></path>
+        </g>
     </g>
 </svg>

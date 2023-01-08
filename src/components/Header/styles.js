@@ -9,9 +9,9 @@ export default makeStyles(theme => {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.leavingScreen,
       }),
-      backgroundColor: "#ffffff",
+      backgroundColor: "transparent",
       fontWeight: "bold",
-      color: theme.palette.text.primary,
+      color: theme.palette.background.light,
     },
     toolbar: {
       paddingLeft: theme.spacing(2),
@@ -33,14 +33,14 @@ export default makeStyles(theme => {
       textAlign: "center",
       "&:hover": {
         cursor: "pointer",
-        color: "#1fdc6b",
+        color: theme.palette.primary.main,
       },
     },
     gap: {
       marginRight: theme.spacing(10),
     },
     buttonDownload: {
-      backgroundColor: "#1fdc6b",
+      backgroundColor: theme.palette.primary.main,
       color: "#fff",
       fontWeight: "bold",
       padding: "8px 32px",

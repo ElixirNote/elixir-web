@@ -18,8 +18,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: 'url(' + require('../../../images/feature-bg.svg') + ')',
     backgroundRepeat: "no-repeat",
     backgroundSize: "100%",
-    backgroundColor: "#fff",
-    color: "#fff",
+    backgroundColor: theme.palette.background.default,
+    color: theme.palette.background.light,
   },
   card: {
     display: "flex",

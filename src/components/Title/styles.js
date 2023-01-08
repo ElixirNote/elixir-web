@@ -8,7 +8,7 @@ export default makeStyles(theme => ({
     flexDirection: "column",
   },
   featureTitle: {
-    color: theme.palette.text.primary,
+    color: theme.palette.background.light,
     fontWeight: 500,
     fontSize: 40,
     display: "flex",
@@ -20,7 +20,7 @@ export default makeStyles(theme => ({
     justifyContent: "center",
     textAlign: "center",
     width: "100vw",
-    color: theme.palette.text.secondary,
+    color: theme.palette.text.hint,
     fontSize: 16,
     lineHeight: 2,
   },

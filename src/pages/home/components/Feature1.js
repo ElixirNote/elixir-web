@@ -1,108 +1,130 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/styles";
+
+import MountainPic from "../../../images/mountain.webp";
+import Button from "@material-ui/core/Button";
+import PersonalVideoIcon from '@material-ui/icons/PersonalVideo';
+import EditIcon from '@material-ui/icons/Edit';
+import OpenInNewIcon from '@material-ui/icons/OpenInNew';
 
 const useStyles = makeStyles(theme => ({
   root: {
     width: "100vw",
-    height: "90vh",
+    height: "100vh",
     backgroundColor: "#fff",
-  },
-  leftPaper: {
-    height: "90vh",
-    width: "100%",
-    backgroundImage: 'url(' + require('../../../images/home-left.svg') + ')',
+    backgroundImage: 'url(' + require('../../../images/auora.webp') + ')',
     backgroundRepeat: "no-repeat",
-    backgroundSize: "50vw 80vh",
-    backgroundPosition: "bottom center",
-    paddingRight: theme.spacing(5),
+    backgroundSize: "100vw 100vh",
   },
-  rightPaper: {
-    height: "90vh",
+  main: {
     display: "flex",
-    backgroundImage: 'url(' + require('../../../images/dots.svg') + ')',
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "60vw 90vh",
-    backgroundPosition: "bottom right",
-    justifyContent: "center",
     flexDirection: "column",
-    alignItems: "flex-start",
-
-    paddingLeft: theme.spacing(5),
   },
-  logoSlogan: {
+  firstMain: {
+    display: "flex",
+    height: "65vh",
+    width: "100vw",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  secondMain: {
+    display: "flex",
+    height: "35vh",
+    width: "100vw",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  slogan: {
     fontSize: 64,
-    fontWeight: "bolder",
-    width: "35vw",
-    lineHeight: 1.2,
-    marginTop: theme.spacing(2),
-    marginBottom: theme.spacing(1),
-    color: theme.palette.text.primary,
+    color: theme.palette.background.light,
+    fontFamily: "Lato,sans-serif!important",
+    paddingTop: theme.spacing(10),
   },
-  tryItToday: {
-    fontSize: 16,
-    fontWeight: "bold",
-    marginTop: theme.spacing(2),
-    marginRight: theme.spacing(2),
+  startButton: {
+    background: theme.palette.primary.main,
+    color: theme.palette.background.light,
+    fontWeight: 600,
     textTransform: "Capitalize",
-    color: "#ffffff",
-    borderRadius: 4,
-    backgroundColor: "#1fdc6b",
-    padding: "8px 32px",
+    paddingLeft: theme.spacing(5),
+    paddingRight: theme.spacing(5),
+    paddingTop: theme.spacing(2),
+    paddingBottom: theme.spacing(2),
+    marginRight: theme.spacing(4),
+    "&:hover": {
+      background: theme.palette.primary.dark,
+    }
   },
-  buttonInfoToMore: {
-    fontSize: 16,
-    fontWeight: "bold",
-    marginTop: theme.spacing(2),
-    marginRight: theme.spacing(2),
+  exampleButton: {
+    color: theme.palette.primary.main,
+    background: theme.palette.background.light,
+    fontWeight: 600,
     textTransform: "Capitalize",
-    color: "#1fdc6b",
-    borderColor: "#1fdc6b",
-    padding: "8px 32px",
+    paddingLeft: theme.spacing(5),
+    paddingRight: theme.spacing(5),
+    paddingTop: theme.spacing(2),
+    paddingBottom: theme.spacing(2),
+    marginRight: theme.spacing(4),
+    "&:hover": {
+      borderColor: theme.palette.primary.light,
+    }
   },
+  tip: {
+    color: theme.palette.background.light,
+  },
+  demoButton: {
+    paddingLeft: 4,
+    textTransform: "Capitalize",
+    color: theme.palette.primary.main,
+    fontWeight: 800,
+  }
+
 }));
 
 export default function Feature1() {
   const classes = useStyles();
 
-  const defaultSystemName = "We help teams turn their data into assets";
+  // const defaultSystemName = "We help teams turn their data into assets";
+  const defaultSystemName = "Where data teams do their best work";
 
   return (
     <div className={classes.root}>
-      <Grid container>
-        <Grid item md={6} lg={6}>
-          <div className={classes.leftPaper}>
-          </div>
+      <Grid container className={classes.firstMain}>
+        <Grid item xs={2}/>
+        <Grid item xs={4}>
+          <p className={classes.slogan}>{defaultSystemName}</p>
+          <Button
+            variant={"contained"}
+            startIcon={<EditIcon/>}
+            className={classes.startButton}
+            onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/guides/get-started", "_target")}
+          >
+            Quickstart
+          </Button>
+          <Button
+            variant={"contained"}
+            endIcon={<OpenInNewIcon/>}
+            className={classes.exampleButton}
+            onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_target")}
+          >
+            Documentation
+          </Button>
+          <p className={classes.tip}>Want to see how Elixir can help your team?</p>
+          <Button
+            className={classes.demoButton}
+            variant={"link"}
+            startIcon={<PersonalVideoIcon color="main" />}
+            onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/guides/get-started", "_target")}
+          >
+            Book a demo
+          </Button>
         </Grid>
-        <Grid item md={6} lg={6}>
-          <div className={classes.rightPaper}>
-            <div>
-              <p className={classes.logoSlogan}>
-                {defaultSystemName}
-              </p>
-            </div>
-            <div>
-              <Button
-                variant={"contained"}
-                disableElevation
-                className={classes.tryItToday}
-                onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/", "_blank")}
-              >
-                Try Today
-              </Button>
-              <Button
-                variant={"outlined"}
-                className={classes.buttonInfoToMore}
-                onClick={() => window.open("https://github.com/ElixirNote", "_blank")}
-              >
-                Learn More
-              </Button>
-            </div>
-          </div>
+        <Grid item xs={4}>
         </Grid>
-        <Grid item md={1} lg={2}>
-        </Grid>
+        <Grid item xs={2}/>
+      </Grid>
+      <Grid container className={classes.secondMain}>
+        <img src={MountainPic} height={"100%"} alt="mountain" />
       </Grid>
     </div>
   );

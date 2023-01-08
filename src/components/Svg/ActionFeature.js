@@ -24,7 +24,7 @@ const useStyles = makeStyles(theme => ({
     marginBottom: theme.spacing(3),
   },
   buttonDownload: {
-    backgroundColor: "#1fdc6b",
+    backgroundColor: theme.palette.primary.main,
     padding: "8px 32px",
     paddingBottom: 8,
     borderRadius: 4,
@@ -46,7 +46,7 @@ export default function ActionFeature() {
           <Button
             variant={"contained"}
             className={classes.buttonDownload}
-            onClick={() => window.open("https://github.com/ElixirNote/elixirnote/releases", "_target")}
+            onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/guides/installation", "_target")}
           >
             Download
           </Button>

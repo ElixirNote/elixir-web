@@ -105,12 +105,12 @@ export default makeStyles((theme) => ({
     padding: theme.spacing(1),
     marginTop: theme.spacing(2),
     marginBottom: theme.spacing(2),
-    backgroundColor: "#1fdc6b",
+    backgroundColor: theme.palette.primary.main,
+    fontWeight: 800,
     color: "white",
     textTransform: "Capitalize",
     "&:hover": {
-      backgroundColor: "#1fdc6b",
-      fontWeight: 800,
+      borderColor: theme.palette.primary.main,
       cursor: "pointer",
     },
   },
@@ -122,9 +122,8 @@ export default makeStyles((theme) => ({
     marginBottom: theme.spacing(5),
   },
   copyright: {
-    display: "flex",
-    width: "100%",
     color: theme.palette.text.hint,
     marginBottom: theme.spacing(2),
+    fontSize: 12,
   },
 }));

@@ -17,8 +17,6 @@ export default function Header() {
 
   return (
     <AppBar
-      id="attr"
-      position="fixed"
       elevation={0}
       className={classes.appBar}>
       <Toolbar className={classes.toolbar}>
@@ -44,13 +42,13 @@ export default function Header() {
           className={classes.subTitle}
           onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/solutions/solutions", "_target")}
         >
-          Solution
+          Solutions
         </p>
         <p
           className={classes.subTitle}
           onClick={() => window.open("https://ciusji.gitbook.io/elixirnote/appendix/faq", "_target")}
         >
-          FAQ
+          FAQs
         </p>
         <div className={classes.grow} />
         <div>
