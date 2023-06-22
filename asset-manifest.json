@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/elixir-web/static/js/main.86cb614e.chunk.js",
+    "main.js.map": "/elixir-web/static/js/main.86cb614e.chunk.js.map",
+    "runtime~main.js": "/elixir-web/static/js/runtime~main.329f3bb6.js",
+    "runtime~main.js.map": "/elixir-web/static/js/runtime~main.329f3bb6.js.map",
+    "static/js/2.4e5d6f13.chunk.js": "/elixir-web/static/js/2.4e5d6f13.chunk.js",
+    "static/js/2.4e5d6f13.chunk.js.map": "/elixir-web/static/js/2.4e5d6f13.chunk.js.map",
+    "index.html": "/elixir-web/index.html",
+    "precache-manifest.e1a466dd8c3ef21ecd352a1222d9e1f9.js": "/elixir-web/precache-manifest.e1a466dd8c3ef21ecd352a1222d9e1f9.js",
+    "service-worker.js": "/elixir-web/service-worker.js",
+    "static/media/auora.webp": "/elixir-web/static/media/auora.d5f05a39.webp",
+    "static/media/bg-actions.svg": "/elixir-web/static/media/bg-actions.18f125c9.svg",
+    "static/media/bigdata-ecosystem.svg": "/elixir-web/static/media/bigdata-ecosystem.c7d967ba.svg",
+    "static/media/elixirnote-footer.svg": "/elixir-web/static/media/elixirnote-footer.08df71fa.svg",
+    "static/media/elixirnote.svg": "/elixir-web/static/media/elixirnote.fff80671.svg",
+    "static/media/feature-bg.svg": "/elixir-web/static/media/feature-bg.1ba06023.svg",
+    "static/media/github.svg": "/elixir-web/static/media/github.2d7ee4e2.svg",
+    "static/media/iceberg.webp": "/elixir-web/static/media/iceberg.26070ccf.webp",
+    "static/media/icon-career-analytics.svg": "/elixir-web/static/media/icon-career-analytics.93fea8a6.svg",
+    "static/media/icon-career-cloud.svg": "/elixir-web/static/media/icon-career-cloud.5d8ffcc4.svg",
+    "static/media/icon-mission-analytical.svg": "/elixir-web/static/media/icon-mission-analytical.5fccfb9a.svg",
+    "static/media/icon-mission-database.svg": "/elixir-web/static/media/icon-mission-database.e90209ab.svg",
+    "static/media/icon-mission-settings.svg": "/elixir-web/static/media/icon-mission-settings.7f475cb4.svg",
+    "static/media/icon-service-server.svg": "/elixir-web/static/media/icon-service-server.a185bb6e.svg",
+    "static/media/mountain.webp": "/elixir-web/static/media/mountain.92eff47f.webp"
+  }
+}
